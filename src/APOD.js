@@ -39,10 +39,13 @@ const APOD = () => {
     {
         return (
             <div>
-                <h1>Picture of the day: {items.title}</h1>
-                <p>
-                    Brought to you by NASA's image API
-                </p>
+                <div className='title'>
+                    <h1>Picture of the day: <br></br>{items.title}</h1>
+                    <p>
+                        Brought to you by NASA's image API
+                    </p>
+                </div>
+                
                 <div className='flip-box'>
                     
                     <div className="flip-box-inner">

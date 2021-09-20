@@ -17,25 +17,32 @@
         background-position: 0% 50%;
     }
 }
+
 .nasa{
   padding: 20px;
   margin-top: 20px;
+  margin-left: 20px;
   background-color: rgb(175, 175, 175);
   border-radius: 25px;
   color: #00000a;
+  max-width: fit-content;
 }
 .picture{
   margin-bottom: 20px;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   max-width: 90vw;
+}
+.title{
+  max-width: fit-content;
+  white-space: nowrap;
 }
 
 /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-box {
   background-color: transparent;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -100,8 +107,9 @@
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   animation: 
-    typing 1.5s steps(12, end),
+    typing 2s steps(12, end),
     blink-caret 1s step-end infinite;
+  margin-top: 50px;
 }
 
 /* The typing effect */
@@ -120,8 +128,8 @@
   border: 16px solid #f3f3f3;
   border-radius: 50%;
   border-top: 16px solid #3498db;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   -webkit-animation: spin 2s linear infinite; /* Safari */
   animation: spin 2s linear infinite;
 }
